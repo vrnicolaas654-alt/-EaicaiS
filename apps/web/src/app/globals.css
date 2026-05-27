@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #07070A;
+  --card: #111117;
+  --primary: #7C3AED;
+  --accent: #00E5FF;
+  --text: #F8FAFC;
+}
+
+body {
+  background-color: rgb(7, 7, 10);
+  color: rgb(248, 250, 252);
+}
+
+.frosted-card {
+  background: rgba(17, 17, 23, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(124, 58, 237, 0.1);
+}
+
+.neon-accent {
+  color: #00E5FF;
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+}
+
+.gradient-primary {
+  background: linear-gradient(135deg, #7C3AED 0%, #00E5FF 100%);
+}
